@@ -78,6 +78,61 @@ nav a:hover {
     border-radius: 8px;
 }
 
+.contact-section h1 {
+    text-align: center;
+}
+
+form p {
+    margin: 18px 0px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #164A41;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.contact-section h2 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.colour-check label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.colour-check input {
+    width: 180px;
+}
+
+.form-buttons {
+    text-align: left;
+}
+
+.form-buttons input {
+    padding: 10px 22px;
+    margin-right: 10px;
+    background: #164A41;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons input:hover {
+    background: #4F9D69
+}
 
 footer {
     background: #164A41;

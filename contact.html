@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohaan Khan - Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css" media="only screen and (min-width: 960px)">
+    <link rel="stylesheet" href="tablet.css" media="only screen and (min-width: 481px) and (max-width: 959px)">
+    <link rel="stylesheet" href="phone.css" media="only screen and (max-width: 480px)">
+</head>
+<body>
+    <header>
+        <img class="avatar" src="photo.png" alt="Rohaan Khan profile photo">
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html">CONTACT ME</a>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h1>CONTACT</h1>
+
+        <form action="mailto:rohaan.khan@ontariotechu.net" method="post" enctype="text/plain">
+            <p>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required> 
+            </p>
+
+            <p>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required> 
+            </p>
+
+            <h2>How would you like us to contact you:</h2>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required> 
+            </p>
+
+            <p>
+                <label for="phone">Cell Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your cell phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> 
+            </p>
+
+            <p>
+                <label for="comments">Comments (optional)</label>
+                <textarea id="comments" name="comments" rows="6"></textarea>
+            </p>
+
+            <p class="colour-check">
+                <label for="favourite-colour">Favourite colour (So I know you aren't a robot)</label>
+                <input type="color" id="favourite-colour" name="favourite-colour" required> 
+            </p>
+
+            <p class="form-buttons">
+                <input type="reset" value="Clear">
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </section>
+
+    <footer>
+        <img class="footer-avatar" src="photo.png" alt="Rohaan Khan profile photo">
+        <address>rohaan.khan@ontariotechu.net</address>
+        <p>&copy; 2026 by Rohaan Khan</p>
+    </footer>
+</body>
+</html>

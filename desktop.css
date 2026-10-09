@@ -68,8 +68,25 @@ header {
     margin-top: 0px;
 }
 
+.contact-section {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px 20px;
+}
+
+form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (max-width: 1100px) {
     .welcome-box {
         width: 85%;
+    }
+
+    .contact-section {
+        width: 80%;
     }
 }

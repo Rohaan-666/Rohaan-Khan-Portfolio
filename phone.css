@@ -56,6 +56,31 @@ nav a:hover {
     margin: 0px;
 }
 
+.photo-banner {
+    height: 210px;
+    padding-top: 15px;
+}
+
+.about-photo {
+    width: 180px;
+    height: 180px;
+    border-width: 4px;
+}
+
+.about-info {
+    width: 100%;
+    margin-left: 0px;
+    padding: 25px 15px 10px 15px;
+}
+
+.video-section {
+    padding: 15px 10px 30px 10px;
+}
+
+.video-section video {
+    width: 100%;
+}
+
 footer {
     padding: 22px 12px;
 }

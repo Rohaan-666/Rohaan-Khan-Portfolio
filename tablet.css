@@ -32,3 +32,27 @@ nav a {
     margin: 0px;
     font-size: 18px
 }
+
+.photo-banner {
+    height: 235px;
+    padding-top: 15px;
+}
+
+.about-photo {
+    width: 200px;
+    height: 200px;
+}
+
+.about-info {
+    width: 80%;
+    margin-left: 20%;
+    padding: 30px 15px 15px 15px;
+}
+
+.video-section {
+    padding: 20px 15px;
+}
+
+.video-section video {
+    max-width: 90%;
+}

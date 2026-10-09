@@ -81,6 +81,26 @@ nav a:hover {
     width: 100%;
 }
 
+.projects-section {
+    width: 100%;
+    margin:0px;
+    padding: 30px 12px;
+}
+
+.projects-section h1 {
+    text-align: center;
+    font-size: 27px;
+}
+
+.project-card {
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.project-card h2 {
+    font-size: 20px;
+}
+
 footer {
     padding: 22px 12px;
 }

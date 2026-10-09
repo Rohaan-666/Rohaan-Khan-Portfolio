@@ -47,6 +47,27 @@ header {
     padding: 20px;
 }
 
+.projects-section {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px 20px;
+}
+
+.projects-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-card {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-card h2 {
+    margin-top: 0px;
+}
+
 @media (max-width: 1100px) {
     .welcome-box {
         width: 85%;

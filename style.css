@@ -72,6 +72,12 @@ nav a:hover {
     background: #164A41;
 }
 
+.project-card {
+    background: #FFFFFF;
+    border: 2px solid #4F9D69;
+    border-radius: 8px;
+}
+
 
 footer {
     background: #164A41;

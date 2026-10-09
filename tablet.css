@@ -15,7 +15,7 @@ nav a {
     margin-right: 15px;
 }
 
-.home-continent {
+.home-content {
     padding: 100px 15px;
     text-align: center;
 }
@@ -55,4 +55,33 @@ nav a {
 
 .video-section video {
     max-width: 90%;
+}
+
+.projects-section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 10px;
+}
+
+.projects-section h1 {
+    text-align: center;
+}
+
+.project-card {
+    padding: 18px;
+    margin-bottom:18px;
+}
+
+footer {
+    padding: 22px 15px;
+}
+
+.footer-avatar {
+    width: 60px;
+    height:60px;
+}
+
+footer p {
+    margin-left: 12px;
 }

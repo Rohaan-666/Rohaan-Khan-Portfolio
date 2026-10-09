@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+header {
+    min-height: 120px;
+}
+
+.home-content {
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.welcome-box {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 55px 30px;
+    border-radius: 12px;
+
+}
+
+.welcome-box h1 {
+    margin: 0px 0px 15px 0px;
+}
+
+.welcome-box p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+@media (max-width: 1100px) {
+    .welcome-box {
+        width: 85%;
+    }
+}
